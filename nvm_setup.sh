@@ -4,7 +4,7 @@
 #Install NVM for nodejs package manager
 #-----------------------------------------
 echo -e "---- Install NVM for Nodejs Package Manager Into Server ----"
-NVM_VERSION="v0.33.1"
+NVM_VERSION="v0.33.8"
 curl -o- https://raw.githubusercontent.com/creationix/nvm/$NVM_VERSION/install.sh | bash
 source ~/.profile
 echo -e "---- Install NodeJS and IOJS Into NVM ----"

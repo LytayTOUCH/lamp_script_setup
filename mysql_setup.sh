@@ -9,7 +9,7 @@ sudo apt-get upgrade -y
 #--------------------------------------
 # Install MySQL
 #--------------------------------------
-MYSQL_APT_CONFI_VERSION="0.8.3-1"
+MYSQL_APT_CONFI_VERSION="0.8.9-1"
 echo -e "---- Install MySQL APT Configuration Repository ----"
 wget http://dev.mysql.com/get/mysql-apt-config_$MYSQL_APT_CONFI_VERSION_all.deb
 sudo dpkg -i mysql-apt-config_$MYSQL_APT_CONFI_VERSION_all.deb
